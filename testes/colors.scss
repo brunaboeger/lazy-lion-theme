@@ -1,0 +1,83 @@
+
+$vscode: #fd42a6;
+
+$vscode-background: #212836;
+
+$vscode-background-escuro: #1C212E;
+
+$vscode-background-claro: #1A2023;
+
+//* Editor *//
+
+$roxo-opaco-claro: #a7afdb;
+
+$roxo-opaco-escuro: #8389ad;
+
+// $roxo-opaco-escuro: #576192;
+
+$verde: #6ce48a;
+
+$laranja: #EAAA62; // F78C6C, EAAA62
+
+$azul: #4ebaf8; // 19abff, 33A4D8
+
+$amarelo: #ffe96c; // ffd65c
+
+$rosa-claro: #fb95ff;
+
+$vermelho: #FF6A80;
+
+$roxo: #a07af8;
+
+$erro: #fd2949;
+
+
+
+// $roxo-opaco: #6d77ad;
+
+// $branco: #D9E0EE;
+
+// $cinza: #bdc3d1;
+
+// $cinza-claro: #939DA5;
+
+// $cinza-escuro: #707A84;
+
+// $amarelo-escuro: #ffd65c;
+
+// $roxo-opaco-claro: #8e97c9;
+// 8492e6, 9ca8ec
+
+
+.dialog-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  margin-bottom: 4px;
+  width: 100%;
+
+  &:not(.disabled) {
+    cursor: pointer;
+  }
+
+  &:hover {
+    background-color: var(--color-hover);
+    color: var(--color-primary);
+  }
+
+  &-label {
+    flex: 1;
+  }
+
+  #{$modifier} & {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+    &:hover {
+      background-color: var(--color-primary-hover);
+    }
+  }
+}

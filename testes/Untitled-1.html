@@ -1,0 +1,39 @@
+<template>
+  <div class="admin-dialog-container">
+    <div>
+      <h1>Heading</h1>
+      <p>{{ 123 / 300 * 12 - 5,5 }}</p>
+      <h2>{{ content.title }}</h2>
+      <PbDialog
+        hide-footer
+        :title="content.title"
+        :show="show"
+        @close="closeModal"
+      >
+        <template #main>
+          <div
+            v-for="(action, index) in content.actions"
+            :key="index"
+          >
+            <div
+              class="dialog-button"
+              :class="{ action.disabled ? 'disabled' : '' }"
+              @click="() => pushRoute(action)"
+            >
+              <PbIcon :icon="action.icon" />
+              <p class="pb-strong dialog-button-label">
+                {{ action.label }}
+              </p>
+              <PbIcon
+                v-if="action.loading"
+                icon="fas fa-spinner fa-spin"
+              />
+            </div>
+          </div>
+        </template>
+      </PbDialog>
+      <!-- erro -->
+      <d
+    </div> 
+  </div>
+</template>
