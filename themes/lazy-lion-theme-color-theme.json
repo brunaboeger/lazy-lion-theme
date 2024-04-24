@@ -291,6 +291,15 @@
 			}
 		},
 		{
+			"name": "Markup - Underline",
+			"scope": [
+				"markup.underline"
+			],
+			"settings": {
+				"fontStyle": "underline",
+			}
+		},
+		{
 			"scope": [
 				"comma",
 				"keyword.operator.assignment",
@@ -322,15 +331,16 @@
 				"punctuation.separator.key-value.scss",
 				"punctuation.terminator.rule.scss",
 				"punctuation.terminator.statement",
+				"source.css support.type.property-name",
+				"support.type.property-name.json",
+				"text.git-commit",
+				"text.html.derivative",
+				"text.html.markdown",
 				"variable.other.constant",
 				"variable.other.object",
 				"variable.other.readwrite",
 				"variable.parameter",
-				"source.css support.type.property-name",
-				"support.type.property-name.json",
-				"text.html.derivative",
 				"variable.scss",
-				"text.git-commit",
 			],
 			"settings": {
 				"foreground": "#979ec5"
@@ -396,9 +406,12 @@
 				"entity.name.type",
 				"entity.other.inherited-class",
 				"keyword.other.unit",
+				"markup.underline",
+				"meta.property-list.scss",
+				"string.other.link.description.title.markdown",
+				"string.other.link",
 				"support.type.builtin",
 				"support.type.primitive",
-				"meta.property-list.scss",
 			],
 			"settings": {
 				"foreground": "#4ebaf8",
@@ -407,11 +420,14 @@
 		{
 			"scope": [
 				"entity.name.function",
+				"markup.heading",
+				"markup.heading.markdown punctuation.definition.heading.markdown",
 				"meta.definition.function",
 				"meta.function-call",
 				"punctuation.definition.interpolation.begin.bracket.curly.scss",
 				"punctuation.definition.parameters",
 				"support.function",
+				"string.other.link.title.markdown",
 			],
 			"settings": {
 				"foreground": "#ffe96c", 
@@ -464,6 +480,7 @@
 				"constant.other.key",
 				// "constant.other.color", // hex color no scss
 				"constant.character.escape",
+				"constant.other.reference.link.markdown",
 
 				"entity.name.module.js",
 				
@@ -475,46 +492,9 @@
 				"markup.changed.git_gutter",
 				"markup.deleted",
 				"markup.deleted.git_gutter",
-				"markup.heading",
 				"markup.inserted.git_gutter",
 				"markup.inserted",
-				"meta.tag.sgml",
-				
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-				"meta.class-method.js entity.name.function.js",
-
-				"punctuation.separator.inheritance.php",
-				"punctuation.section.embedded",
-				
-				"string.other.link",
-				"string constant.other.placeholder",
-				"support.other.variable",
-				"support.class",
-				"support.type.sys-types",
-				"source.sass support.type.property-name",
-				"source.sass keyword.control",
-				"source.scss support.type.property-name",
-				"source.less support.type.property-name",
-				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name",
-				"source.js constant.other.object.key.js string.unquoted.label.js",
-
-				"tag.decorator.js entity.name.tag.js",
-				"tag.decorator.js punctuation.definition.tag.js",
-				"text.html.basic entity.other.attribute-name",
-
-				"variable.function",
-				"variable.import.parameter.js",
-				"variable.other.class.js",
-				"variable.function.constructor",
-
-				"text.html.markdown",
-				"punctuation.definition.list_item.markdown",
-				"text.html.markdown markup.inline.raw.markdown",
-				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown",
-				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown",
 				"markup.italic",
 				"markup.bold",
 				"markup.bold string",
@@ -525,34 +505,57 @@
 				"markup.italic markup.bold string",
 				"markup.quote markup.bold string",
 				"markup.quote punctuation.definition.blockquote.markdown",
-				"string.other.link.title.markdown",
-				"string.other.link.description.title.markdown",
-				"constant.other.reference.link.markdown",
+				"markup.table",
 				"markup.raw.block",
 				"markup.raw.block.fenced.markdown",
-				"punctuation.definition.fenced.markdown",
-				"markup.raw.block.fenced.markdown",
-				"variable.language.fenced.markdown",
-				"punctuation.section.class.end",
-				"variable.language.fenced.markdown",
+				
+				"markdown.heading",
+				
+				"meta.tag.sgml",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"meta.class-method.js entity.name.function.js",
 				"meta.separator",
-				"markup.table",
+
+				"punctuation.separator.inheritance.php",
+				"punctuation.section.embedded",
+				"punctuation.definition.fenced.markdown",
+				"punctuation.definition.list_item.markdown",
+				"punctuation.section.class.end",
+				
+				"string constant.other.placeholder",
+
+				"support.other.variable",
+				"support.class",
+				"support.type.sys-types",
+
+				"source.sass support.type.property-name",
+				"source.sass keyword.control",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name",
+				"source.js constant.other.object.key.js string.unquoted.label.js",
+				
+				"tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js punctuation.definition.tag.js",
+
+				"text.html.basic entity.other.attribute-name",
+				"text.html.markdown markup.inline.raw.markdown",
+				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown",
+
+				"variable.function",
+				"variable.import.parameter.js",
+				"variable.other.class.js",
+				"variable.function.constructor",
+				"variable.language.fenced.markdown",
+				"variable.language.fenced.markdown",
 			],
 			"settings": {
 				"foreground": "#813838",
 				"fontStyle": "bold strikethrough",
 			}
 		},
-		{
-			"name": "Markup - Underline",
-			"scope": [
-				"markup.underline"
-			],
-			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#813838"
-			}
-		},
+		
 		{
 			"name": "Markup - Quote",
 			"scope": [
