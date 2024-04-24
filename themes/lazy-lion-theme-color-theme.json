@@ -23,7 +23,7 @@
 	
 */
 {
-	"name": "Lazy Lion",
+	"name": "Lazy Lion Theme",
 	"colors": {
 
 		//* VSCODE *//
@@ -94,7 +94,7 @@
 		"terminal.selectionBackground": "#576192",
 		"terminal.selectionForeground": "#D9E0EE",
 		"terminal.inactiveSelectionBackground": "#ff0000",
-		"terminal.findMatchBackground": "#ff0000e3",
+		"terminal.findMatchBackground": "#00ff55e3",
 		"terminal.hoverHighlightBackground": "#fd42a68f",
 		"terminal.dropBackground": "#ff0000f3",
 		"terminal.tab.activeBorder":"#fd42a6",
@@ -209,7 +209,8 @@
 		"editorGroupHeader.tabsBackground": "#1C212E",
 		"editorGroupHeader.noTabsBackground": "#1A2023",
 		"editorGroupHeader.border": "#1A2023",
-		"editorGroup.emptyBackground": "#a07af8", // OVNI (VSCode?)
+		"editorGroup.emptyBackground": "#a07af8", // VSCode sem arquivo aberto
+		"editorGroup.emptyForeground": "#a7afdb", // VSCode sem arquivo aberto
 		"editorGroup.focusedEmptyBorder": "#ff0000", // OVNI
 
 		// editor em si
