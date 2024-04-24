@@ -313,8 +313,9 @@
 				"punctuation.separator.array.json",
 				"punctuation.separator.array.json.comments",
 				"punctuation.separator.comma",
-				"punctuation.separator.dictionary.pair.json",
 				"punctuation.separator.dictionary.key-value.json",
+				"punctuation.separator.dictionary.pair.json",
+				"punctuation.separator.dictionary.pair.json.comments",
 				"punctuation.separator.key-value.scss",
 				"punctuation.terminator.rule.scss",
 				"punctuation.terminator.statement",
@@ -342,6 +343,7 @@
 		{
 			"scope": [
 				"string",
+				"string.regexp",
 			],
 			"settings": {
 				"foreground": "#6ce48a",
@@ -436,6 +438,7 @@
 				"invalid",
 				"invalid.deprecated",
 				"invalid.illegal",
+				"meta.property-name.scss",
 			],
 			"settings": {
 				"foreground": "#fd3856"
@@ -479,7 +482,6 @@
 				"punctuation.section.embedded",
 				
 				"string.other.link",
-				"string.regexp",
 				"string constant.other.placeholder",
 				"support.other.variable",
 				"support.class",
