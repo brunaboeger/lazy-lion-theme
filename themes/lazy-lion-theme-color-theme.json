@@ -327,6 +327,8 @@
 				"support.type.property-name.json",
 				"text.html.derivative",
 				"variable.scss",
+				"meta.scope.subject.git-commit",
+				"text.git-commit",
 			],
 			"settings": {
 				"foreground": "#979ec5"
