@@ -209,7 +209,7 @@
 		"editorGroupHeader.tabsBackground": "#1C212E",
 		"editorGroupHeader.noTabsBackground": "#1A2023",
 		"editorGroupHeader.border": "#1A2023",
-		"editorGroup.emptyBackground": "#ff0000", // OVNI
+		"editorGroup.emptyBackground": "#a07af8", // OVNI (VSCode?)
 		"editorGroup.focusedEmptyBorder": "#ff0000", // OVNI
 
 		// editor em si
@@ -256,7 +256,7 @@
 		{
 			"name": "TESTANDO PROPRIEDADES",
 			"scope": [
-				"meta.property-list.scss",
+				
 			],
 			"settings": {
 				"foreground": "#ff0000",
@@ -300,6 +300,8 @@
 				"meta.brace.round",
 				"meta.definition.variable.scss",
 				"meta.object-literal.key",
+				"meta.property-name.scss",
+				"meta.scope.subject.git-commit",
 				"meta.tag",
 				"meta.template.expression",
 				"punctuation.accessor",
@@ -327,7 +329,6 @@
 				"support.type.property-name.json",
 				"text.html.derivative",
 				"variable.scss",
-				"meta.scope.subject.git-commit",
 				"text.git-commit",
 			],
 			"settings": {
@@ -355,6 +356,7 @@
 			"scope": [
 				"entity.other.attribute-name.html",
 				"entity.other.attribute-name.html.vue",
+				"meta.at-rule.keyframes.scss",
 				"support.variable.property.js",
 				"variable.language.this",
 				"variable.object.property",
@@ -395,6 +397,7 @@
 				"keyword.other.unit",
 				"support.type.builtin",
 				"support.type.primitive",
+				"meta.property-list.scss",
 			],
 			"settings": {
 				"foreground": "#4ebaf8",
@@ -440,7 +443,6 @@
 				"invalid",
 				"invalid.deprecated",
 				"invalid.illegal",
-				"meta.property-name.scss",
 			],
 			"settings": {
 				"foreground": "#fd3856"
