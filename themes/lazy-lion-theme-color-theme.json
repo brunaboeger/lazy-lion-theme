@@ -383,6 +383,9 @@
 				"keyword.control.conditional",
 				"keyword.control.flow",
 				"keyword.operator.new",
+				"keyword.operator.expression.delete",
+				"keyword.operator.expression.of",
+				"keyword.operator.expression.typeof",
 				"entity.other.attribute-name.class",
 				"entity.other.attribute-name.parent-selector-suffix.css",
 				"storage.modifier",
@@ -410,6 +413,7 @@
 				"meta.property-list.scss",
 				"string.other.link.description.title.markdown",
 				"string.other.link",
+				"support.class",
 				"support.type.builtin",
 				"support.type.primitive",
 			],
@@ -525,7 +529,6 @@
 				"string constant.other.placeholder",
 
 				"support.other.variable",
-				"support.class",
 				"support.type.sys-types",
 
 				"source.sass support.type.property-name",
