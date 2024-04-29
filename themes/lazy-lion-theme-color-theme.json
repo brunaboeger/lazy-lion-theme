@@ -47,6 +47,9 @@
 		"commandCenter.inactiveForeground": "#212836",
 		"commandCenter.inactiveBorder": "#212836",
 
+		"pickerGroup.foreground": "#2600ffe3",
+		"quickInputTitle.background": "#2600ffe3",
+
 		// notificações (aparece no canto direito embaixo)
 
 		"notifications.foreground": "#a7afdb",
@@ -56,21 +59,21 @@
 		"notificationCenterHeader.background": "#1C212E",
 		"notificationToast.border": "#1A2023",
 
-		"banner.background": "#ff0000",
-		"banner.foreground": "#ff0000",
-		"banner.iconForeground": "#ff0000",
+		"banner.background": "#2600ffe3",
+		"banner.foreground": "#2600ffe3",
+		"banner.iconForeground": "#2600ffe3",
 
 		// aba de extenções
 
 		"extensionButton.prominentForeground": "#a7afdb",
 		"extensionButton.prominentBackground": "#fd42a6",
-		"extensionButton.prominentHoverBackground": "#ff0000",
+		"extensionButton.prominentHoverBackground": "#2600ffe3",
 		"extensionButton.background": "#576192",
 		"extensionButton.foreground": "#D9E0EE",
 		"extensionButton.hoverBackground": "#fd42a6",
 		"extensionButton.separator": "#D9E0EE",
 		"extensionBadge.remoteBackground": "#e5ff00",
-		"extensionBadge.remoteForeground": "#e5ff00",
+		"extensionBadge.remoteForeground": "#2600ffe3",
 		"extensionIcon.starForeground": "#fd42a6ea",
 		"extensionIcon.verifiedForeground": "#6ce48af6",
 		"extensionIcon.preReleaseForeground": "#c8ff00c0",
@@ -83,8 +86,8 @@
 		"keybindingLabel.border": "#576192",
 		"keybindingLabel.bottomBorder": "#576192",
 
-		"keybindingTable.headerBackground": "#ff0000",
-		"keybindingTable.rowsBackground": "#ff0000",
+		"keybindingTable.headerBackground": "#2600ffe3",
+		"keybindingTable.rowsBackground": "#2600ffe3",
 
 		// terminal
 
@@ -177,16 +180,25 @@
 		"input.placeholderForeground": "#707A84",
 
 		"inputOption.activeBorder": "#fd42a6",
-		"inputValidation.errorBackground": "#ff0000", // OVNI
-		"inputValidation.errorBorder": "#ff0000", // OVNI
-		"inputValidation.errorForeground": "#ff0000", // OVNI
+		"inputValidation.errorBackground": "#2600ffe3", // OVNI
+		"inputValidation.errorBorder": "#2600ffe3", // OVNI
+		"inputValidation.errorForeground": "#2600ffe3", // OVNI
 
 		// botões gerais
 
 		"button.background": "#9d69ff",
 		"button.foreground": "#D9E0EE",
 
+		// action bar
+
+		"actionBar.toggledBackground": "#2600ffe3",
+
+		
 		//* EDITOR *//
+
+		// editor widget (find, replace, command palette, etc)
+
+		"editorWidget.background": "#1C212E",
 
 		// quando tem vários arquivos abertos
 
@@ -316,6 +328,7 @@
 				"meta.template.expression",
 				"punctuation.accessor",
 				"punctuation.attribute-shorthand.slot",
+				"punctuation.definition.block.js",
 				"punctuation.definition.tag",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
@@ -367,6 +380,7 @@
 			"scope": [
 				"entity.other.attribute-name.html",
 				"entity.other.attribute-name.html.vue",
+				"meta.array.literal.js",
 				"meta.at-rule.keyframes.scss",
 				"support.variable.property.js",
 				"variable.language.this",
@@ -384,6 +398,7 @@
 				"keyword.control.flow",
 				"keyword.operator.new",
 				"keyword.operator.expression.delete",
+				"keyword.operator.expression.in",
 				"keyword.operator.expression.of",
 				"keyword.operator.expression.typeof",
 				"entity.other.attribute-name.class",
@@ -418,7 +433,8 @@
 				"support.type.primitive",
 			],
 			"settings": {
-				"foreground": "#4ebaf8",
+				"foreground": "#00aeff",
+				// 4ebaf8
 			}
 		},
 		{
