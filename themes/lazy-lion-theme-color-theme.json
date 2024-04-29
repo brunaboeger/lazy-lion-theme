@@ -99,15 +99,15 @@
 		"terminal.inactiveSelectionBackground": "#ff0000",
 		"terminal.findMatchBackground": "#00ff55e3",
 		"terminal.hoverHighlightBackground": "#fd42a68f",
-		"terminal.dropBackground": "#ff0000f3",
+		"terminal.dropBackground": "#97c4fff3",
 		"terminal.tab.activeBorder":"#fd42a6",
 		"terminalCursor.background": "#576192",
 		"terminalCursor.foreground": "#fd42a6",
 		"terminalCommandDecoration.defaultBackground": "#0004ff",
 		"terminalCommandDecoration.successBackground": "#00ff15",
-		"terminalCommandDecoration.errorBackground": "#ff0000",
-		"terminalOverviewRuler.cursorForeground": "#ff0000",
-		"terminalOverviewRuler.findMatchForeground": "#ff0000",
+		"terminalCommandDecoration.errorBackground": "#00ffaa",
+		"terminalOverviewRuler.cursorForeground": "#a6ff00",
+		"terminalOverviewRuler.findMatchForeground": "#ff3d98",
 		"terminalStickyScroll.background": "#0004ff",
 		"terminalStickyScrollHover.background": "#0004ff",
 
@@ -269,7 +269,7 @@
 		{
 			"name": "TESTANDO PROPRIEDADES",
 			"scope": [
-				
+				"markup.changed",
 			],
 			"settings": {
 				"foreground": "#ff0000",
@@ -434,7 +434,6 @@
 			],
 			"settings": {
 				"foreground": "#00aeff",
-				// 4ebaf8
 			}
 		},
 		{
@@ -508,7 +507,7 @@
 				"keyword.other.template",
 				"keyword.other.substitution",
 
-				"markup.changed",
+				// "markup.changed",
 				"markup.changed.git_gutter",
 				"markup.deleted",
 				"markup.deleted.git_gutter",
