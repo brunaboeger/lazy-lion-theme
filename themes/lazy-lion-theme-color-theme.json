@@ -342,6 +342,7 @@
 				"punctuation.separator.dictionary.pair.json",
 				"punctuation.separator.dictionary.pair.json.comments",
 				"punctuation.separator.key-value.scss",
+				"punctuation.separator.parameter",
 				"punctuation.terminator.rule.scss",
 				"punctuation.terminator.statement",
 				"source.css support.type.property-name",
