@@ -384,7 +384,6 @@
 				"meta.array.literal.js",
 				"meta.at-rule.keyframes.scss",
 				"support.variable.property.js",
-				"variable.language.this",
 				"variable.object.property",
 				"variable.other.property",
 			],
@@ -409,6 +408,7 @@
 				"storage.type.function",
 				"storage.type.function.arrow",
 				"support.constant",
+				"variable.language.this",
 			],
 			"settings": {
 				"foreground": "#a07af8",
