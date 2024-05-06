@@ -386,6 +386,7 @@
 				"support.variable.property.js",
 				"variable.object.property",
 				"variable.other.property",
+				"variable.language.this",
 			],
 			"settings": {
 				"foreground": "#f8ab6c"
@@ -408,7 +409,6 @@
 				"storage.type.function",
 				"storage.type.function.arrow",
 				"support.constant",
-				"variable.language.this",
 			],
 			"settings": {
 				"foreground": "#a07af8",
