@@ -322,6 +322,7 @@
 				"meta.brace.round",
 				"meta.definition.variable.scss",
 				"meta.object-literal.key",
+				"meta.paragraph.mdx",
 				"meta.property-name.scss",
 				"meta.scope.subject.git-commit",
 				"meta.tag",
@@ -381,6 +382,7 @@
 			"scope": [
 				"entity.other.attribute-name.html",
 				"entity.other.attribute-name.html.vue",
+				"entity.other.attribute-name.tsx",
 				"meta.array.literal.js",
 				"meta.at-rule.keyframes.scss",
 				"support.variable.property.js",
@@ -407,6 +409,7 @@
 				"storage.modifier",
 				"storage.type",
 				"storage.type.function",
+				"storage.type.function.arrow.tsx",
 				"storage.type.function.arrow",
 				"support.constant",
 			],
