@@ -45,5 +45,8 @@
       "bold": false,
       "italic": false
     }
+],
+"conventionalCommits.scopes": [
+  "mdx"
 ]
 }

@@ -347,6 +347,7 @@
 				"punctuation.terminator.rule.scss",
 				"punctuation.terminator.statement",
 				"source.css support.type.property-name",
+				"source.mdx",
 				"support.type.property-name.json",
 				"text.git-commit",
 				"text.html.derivative",
