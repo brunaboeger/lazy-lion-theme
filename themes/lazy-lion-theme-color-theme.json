@@ -1,6 +1,11 @@
 {
-	"name": "lazy-lion-theme",
+	"name": "Lazy Lion Theme",
 	"colors": {
+		"titleBar.activeBackground": "#272d3f",
+		"titleBar.activeForeground": "#a7afdb",
+		"titleBar.border": "#1A2023",
+		"titleBar.inactiveBackground": "#1C212E",
+		"titleBar.inactiveForeground": "#8389ad",
 		"editor.background": "#263238",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
