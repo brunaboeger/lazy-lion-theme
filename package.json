@@ -3,16 +3,26 @@
   "displayName": "lazy-lion-theme",
   "description": "",
   "version": "0.0.1",
+  "publisher": "brunaboeger",
   "engines": {
     "vscode": "^1.92.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+		"VSCode",
+		"Themes"
+	],
+  "icon": "icon.png",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/brunaboeger/lazy-lion-theme.git"
+	},
   "contributes": {
     "themes": [
       {
-        "label": "lazy-lion-theme",
+        "label": "Lazy Lion Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/lazy-lion-theme-color-theme.json"
       }
