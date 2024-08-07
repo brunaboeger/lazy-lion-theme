@@ -1,0 +1,21 @@
+{
+  "name": "lazy-lion-theme",
+  "displayName": "lazy-lion-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "lazy-lion-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lazy-lion-theme-color-theme.json"
+      }
+    ]
+  }
+}
