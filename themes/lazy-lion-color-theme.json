@@ -1,0 +1,243 @@
+{
+  "name": "Lazy Lion Theme",
+  "colors": {
+    // "titleBar.activeBackground": "#5f5c5b"
+    // "titleBar.activeForeground": "#5f5c5b"
+    // "titleBar.border": "#5f5c5b",
+    // "titleBar.inactiveBackground": "#5f5c5b",
+    // "titleBar.inactiveForeground": "#5f5c5b",
+    "editor.background": "#1e1e27",
+    "editor.foreground": "#b4b4bd"
+    // "activityBarBadge.background": "#5f5c5b",
+    // "sideBarTitle.foreground": "#5f5c5b"
+  },
+  "tokenColors": [
+    {
+      "name": "Light gray",
+      "scope": [
+        "meta",
+        "punctuation.accessor",
+        "support.constant",
+        "text.html.derivative",
+        "variable.other",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.alias",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#c5ccda"
+      }
+    },
+    {
+      "name": "Gray",
+      "scope": [
+        "keyword.operator.assignment.js",
+        "punctuation.definition.block.js",
+        "punctuation.terminator.statement.js",
+        "punctuation.separator",
+        "punctuation.definition.tag",
+        "punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#939DA5"
+      }
+    },
+    {
+      "name": "Italic Dark Gray",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#747a80",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Green",
+      "scope": [
+        "punctuation.definition.string",
+        "string.quoted",
+        "string.quoted.double"
+      ],
+      "settings": {
+        "foreground": "#61FA87"
+      }
+    },
+    {
+      "name": "Blue",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#4d9df8"
+      }
+    },
+    {
+      "name": "Orange",
+      "scope": [
+        "entity.other.attribute-name",
+        "meta.object-literal.key",
+        "support.type",
+        "variable.other.object.property",
+        "variable.other.property",
+        "entity.other.attribute-name.pseudo-class.css"
+      ],
+      "settings": {
+        "foreground": "#FFA761"
+      }
+    },
+    {
+      "name": "Red",
+      "scope": ["entity.name.tag.js"],
+      "settings": {
+        "foreground": "#FF6A80"
+      }
+    },
+    {
+      "name": "Yellow",
+      "scope": [
+        "support.function",
+        "entity.name.function",
+        "punctuation.section.embedded.begin.js"
+      ],
+      "settings": {
+        "foreground": "#F1EA6B"
+      }
+    },
+    {
+      "name": "Purple ⭐",
+      "scope": [
+        "entity.name.tag",
+        "entity.other.attribute-name.class.css",
+        "keyword.control",
+        "keyword.operator.assignment",
+        "keyword.operator.new",
+        "keyword.other.unit",
+        "meta.structure.array.json.comments",
+        "meta.structure.dictionary.value.json.comments",
+        "meta.structure.dictionary.json.comments",
+        "punctuation.definition.keyword.css",
+        "punctuation.support.type.property-name.begin.json.comments",
+        "punctuation.support.type.property-name.end.json.comments",
+        "source.js",
+        "source.json.comments",
+        "source.sass keyword.control",
+        "storage.modifier",
+        "storage.type",
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#b291ff"
+      }
+    },
+    {
+      "name": "Strikethrough",
+      "scope": ["support.class"],
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "Placeholder Chamativo!!!",
+      "scope": [
+        "*url*",
+        "*link*",
+        "*uri*",
+        "constant.character.escape",
+        "constant.other.color",
+        "constant.other.reference.link.markdown",
+        "constant.other.color",
+        "constant.language",
+        "constant.character",
+        "constant.escape",
+        "constant.other.symbol",
+        "constant.other.key",
+        "entity.name",
+        "entity.other.inherited-class",
+        "entity.name.module.js",
+        "entity.name.method.js",
+        "invalid",
+        "invalid.illegal",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "keyword.other.special-method",
+        "meta.method.call.js",
+        "meta.brace.round.js",
+        "meta.block.js",
+        "meta.function.js",
+        "meta.tag",
+        "meta.tag.sgml",
+        "meta.function-call",
+        "meta.separator",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+        "meta.use.php",
+        "meta.class-method.js entity.name.function.js",
+        "markdown.heading",
+        "markup.deleted.git_gutter",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "markup.inserted",
+        "markup.deleted",
+        "markup.changed",
+        "markup.changed.git_gutter",
+        "markup.heading | markup.heading entity.name",
+        "markup.heading.markdown punctuation.definition.heading.markdown",
+        "markup.italic",
+        "markup.bold",
+        "markup.bold string",
+        "markup.bold markup.italic",
+        "markup.italic markup.bold",
+        "markup.quote markup.bold",
+        "markup.bold markup.italic string",
+        "markup.italic markup.bold string",
+        "markup.quote markup.bold string",
+        "markup.underline",
+        "markup.quote punctuation.definition.blockquote.markdown",
+        "markup.quote",
+        "markup.raw.block",
+        "markup.raw.block.fenced.markdown",
+        "markup.table",
+        "markup.raw.block.fenced.markdown",
+        "punctuation.definition.parameters.begin.js",
+        "punctuation.definition.block.begin",
+        "punctuation.definition.block",
+        "punctuation.definition.parenthesis",
+        "punctuation.separator.inheritance.php",
+        "punctuation.section.embedded",
+        "punctuation.definition.list_item.markdown",
+        "punctuation.definition.fenced.markdown",
+        "punctuation.section.class.end",
+        "string.regexp",
+        "string constant.other.placeholder",
+        "string.other.link.title.markdown",
+        "string.other.link.description.title.markdown",
+        "string.other.link",
+        "support.other.variable",
+        "support.other.namespace.use.php",
+        "support.other.namespace.php",
+        "support.type.sys-types",
+        "source.js constant.other.object.key.js string.unquoted.label.js",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js",
+        "text.html.markdown",
+        "text.html.markdown markup.inline.raw.markdown",
+        "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown",
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name",
+        "variable.function",
+        "variable.import.parameter.js",
+        "variable.other.class.js",
+        "variable.language",
+        "variable.language.fenced.markdown",
+        "variable.function.constructor"
+      ],
+      "settings": {
+        "foreground": "#ff3d23"
+      }
+    }
+  ]
+}
