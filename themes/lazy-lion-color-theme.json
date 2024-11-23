@@ -1,7 +1,7 @@
 {
   "name": "Lazy Lion Theme",
   "colors": {
-    // "titleBar.activeBackground": "#5f5c5b"
+    "titleBar.activeBackground": "#5f5c5b",
     // "titleBar.activeForeground": "#5f5c5b"
     // "titleBar.border": "#5f5c5b",
     // "titleBar.inactiveBackground": "#5f5c5b",
